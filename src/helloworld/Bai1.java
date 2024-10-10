@@ -2,7 +2,7 @@ package helloworld;
 
 import java.util.Scanner;
 
-public class HelloWorld {
+public class Bai1 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Name: ");
