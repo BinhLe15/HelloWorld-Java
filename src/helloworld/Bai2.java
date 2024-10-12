@@ -10,8 +10,8 @@ public class Bai2 {
 
 		System.out.println("Chieu rong: ");
 		double cr = scanner.nextDouble();
-		if (cr > cd) {
-			System.out.println("Chieu dai phai lon hon chieu rong");
+		if (cr > cd || (cd <= 0 || cr <= 0)) {
+			System.out.println("Chieu dai va chieu ronng khong hop le");
 		} else {
 			double cv = (cd + cr) * 2;
 			double dt = cd * cr;
